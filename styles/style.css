@@ -32,3 +32,30 @@
 	border: 1px solid #7e48f6ff;
 	width: 50%;
 }
+
+/* Getting */
+.getting {
+	height: 93vh;
+}
+.getting .row,
+.getting .row .col-md-6 {
+	height: inherit;
+}
+.purple {
+	color: #7e48f6;
+}
+.bold {
+	font-weight: 600;
+}
+.underline {
+	text-decoration: underline;
+	text-decoration-color: #D6C0FB;
+}
+.getting .trailer .the-getting {
+	font-size: 1.8rem;
+}
+.getting .trailer .info {
+	color: #9b9ca2;
+	margin-top: 25px;
+	margin-bottom: 30px;
+}
