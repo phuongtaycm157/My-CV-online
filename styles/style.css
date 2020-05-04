@@ -4,6 +4,9 @@
 }
 
 /* Navigation bar */
+.navbar {
+	height: 7vh;
+}
 .navbar-light .navbar-brand {
   color: #7e48f6;
   font-weight: 600;
@@ -16,16 +19,16 @@
 	color: rgba(0,0,0,.9);
 	font-size: .8rem;
 }
-.navbar-nav .nav-item .hover {
+.navbar-nav .nav-item .nav-link .hover {
 	width: 0;
 	border: 1px solid #7e48f600;
 	transition: .5s;
 }
 .navbar-nav .nav-item:hover .hover {
 	border: 1px solid #7e48f6ff;
-	width: 75%;
+	width: 50%;
 }
-.navbar-nav .nav-item .active + .hover {
+.navbar-nav .nav-item .active .hover {
 	border: 1px solid #7e48f6ff;
-	width: 75%;
+	width: 50%;
 }
