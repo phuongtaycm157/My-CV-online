@@ -10,6 +10,7 @@
 .navbar-light .navbar-brand {
   color: #7e48f6;
   font-weight: 600;
+  font-size: 1.7rem;
   transition: .3s;
 }
 .navbar-light .navbar-brand:hover {
@@ -17,7 +18,7 @@
 }
 .navbar-nav .nav-item .nav-link {
 	color: rgba(0,0,0,.9);
-	font-size: .8rem;
+	font-size: 1rem;
 }
 .navbar-nav .nav-item .nav-link .hover {
 	width: 0;
@@ -51,11 +52,44 @@
 	text-decoration: underline;
 	text-decoration-color: #D6C0FB;
 }
+.getting .trailer {
+	height: inherit;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
 .getting .trailer .the-getting {
-	font-size: 1.8rem;
+	/*font-size: 2rem;*/
 }
 .getting .trailer .info {
-	color: #9b9ca2;
+	color: #75767a;
 	margin-top: 25px;
 	margin-bottom: 30px;
+}
+.getting .trailer .list-button .hire-me,
+.getting .trailer .list-button .Portfolio {
+	font-size: .8rem;
+	font-weight: 600;
+	padding: 8px 32px;
+	border-radius: 3px;
+	border: 1px solid #7e48f6;
+	transition: .3s;
+}
+.getting .trailer .list-button .hire-me {
+	background-color: #7e48f6;
+	color: #fff;
+}
+.getting .trailer .list-button .Portfolio {
+	background-color: #fff;
+	color: #7e48f6;	
+}
+.getting .trailer .list-button .hire-me:hover {
+	background-color: #9f7af1;
+	border-color: #9f7af1;
+	box-shadow: 0 0 3px #ddd;
+}
+.getting .trailer .list-button .Portfolio:hover {
+	background-color: #ede5ff;
+	border-color: #9f7af1;
+	box-shadow: 0 0 3px #ddd;
 }
