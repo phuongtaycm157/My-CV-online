@@ -226,3 +226,11 @@
 .service .focus .read-more .btn {
 	color: #fff;
 }
+
+/*porlfolio*/
+.portfolio {
+	background-color: #fcfaff;
+}
+.img-height {
+	height: 400px;
+}
