@@ -236,6 +236,10 @@
 }
 
 /*Blog*/
+.blog {
+	background-color: #fcfaff;
+	position: relative;
+}
 .my-card {
 	margin-top: 100px;
 	margin-bottom: 100px;
@@ -248,4 +252,35 @@
 }
 .my-card .my-card-content {
 	font-weight: 600;
+}
+.banner {
+	box-shadow: 0 3px 10px #ddd;
+	width: 900px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	background-color: white;
+	top: 200px;
+}
+.banner .text {
+	font-size: 2rem;
+	font-weight: 600;
+	margin-bottom: 30px;
+	color: #3e3e3e;
+}
+.banner .btn-primary {
+	background-color: #7e48f6;
+	border: none;
+	padding: 10px 30px;
+	border-radius: 2px;
+}
+.banner .btn-primary:hover {
+	background-color: #9670e9;
+}
+.banner .btn-primary:active {
+	background-color: #9670e9;
+	outline-color: #9670e9;
 }
