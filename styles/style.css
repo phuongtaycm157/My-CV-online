@@ -234,3 +234,18 @@
 .img-height {
 	height: 400px;
 }
+
+/*Blog*/
+.my-card {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	text-align: center;
+	color: #565656;
+}
+.my-card .my-card-header {
+	font-size: 5rem;
+	font-weight: 300;
+}
+.my-card .my-card-content {
+	font-weight: 600;
+}
